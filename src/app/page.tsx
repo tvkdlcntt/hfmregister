@@ -53,7 +53,7 @@ export default function HomePage() {
           </p>
           <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}>
             <Link href="https://my.hfm.com/en/register" target="_blank" style={{ background: '#EF0107', color: 'white', padding: '16px 42px', fontFamily: "'Barlow Condensed',sans-serif", fontSize: 16, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase', borderRadius: 2, textDecoration: 'none' }}>Open Free Account</Link>
-            <Link href="/review" style={{ background: 'transparent', color: '#C5A028', padding: '16px 36px', fontFamily: "'Barlow Condensed',sans-serif", fontSize: 16, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase', border: '1px solid rgba(197,160,40,0.45)', borderRadius: 2, textDecoration: 'none' }}>Read HFM Review</Link>
+            <Link href="/review" style={{ background: 'transparent', color: '#C5A028', padding: '16px 36px', fontFamily: "'Barlow Condensed',sans-serif", fontSize: 16, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase', border: '1px solid rgba(197,160,40,0.45)', borderRadius: 2, textDecoration: 'none' }}>Why HFM</Link>
           </div>
         </div>
 
