@@ -17,13 +17,6 @@ const WHY_CARDS = [
   { n: '06', icon: '🌍', title: '24/5 Global Support', body: 'Dedicated multilingual support team available 24 hours, 5 days a week across all major time zones.' },
 ]
 
-const CHIPS = [
-  { label: 'EUR/USD', value: '1.0842', up: true, style: { top: '18%', right: '38%' }, cls: 'float-up' },
-  { label: 'XAU/USD', value: '2,318', up: true, style: { top: '30%', right: '22%' }, cls: 'float-down' },
-  { label: 'US30',    value: '38,924', up: false, style: { top: '55%', right: '32%' }, cls: 'float-up' },
-  { label: 'BTC/USD', value: '61,240', up: true,  style: { top: '68%', right: '18%' }, cls: 'float-down' },
-]
-
 const LEGAL_ENTITIES = [
   { name: 'HF Markets (SV) Ltd', detail: 'Company reg. 22747 IBC 2015 · Suite 305, Griffith Corporate Centre, P.O. Box 1510, Beachmont Kingstown, St. Vincent and the Grenadines.' },
   { name: 'HF Markets SA (PTY) Ltd', detail: 'Company reg. No. 2015/341406/07 · Suite 206 Granger Bay Court, 2nd Floor, North Wing, Beach Road V&A Waterfront, Cape Town, 8001.' },
@@ -43,16 +36,6 @@ export default function HomePage() {
 
         {/* vignette */}
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, rgba(6,8,16,0.93) 0%, rgba(6,8,16,0.76) 38%, rgba(6,8,16,0.22) 65%, rgba(6,8,16,0.04) 100%)', zIndex: 1 }} />
-
-        {/* floating market chips */}
-        {CHIPS.map((c) => (
-          <div key={c.label} className={c.cls} style={{ position: 'absolute', zIndex: 3, ...c.style, background: 'rgba(11,15,26,0.82)', border: '1px solid rgba(197,160,40,0.25)', backdropFilter: 'blur(8px)', padding: '8px 14px', borderRadius: 4 }}>
-            <div style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: 18, fontWeight: 700, color: '#F0C842', lineHeight: 1 }}>
-              {c.up ? '▲ ' : '▼ '}{c.value}
-            </div>
-            <div style={{ fontSize: 10, letterSpacing: 2, textTransform: 'uppercase', color: '#7a7e8a', marginTop: 2 }}>{c.label}</div>
-          </div>
-        ))}
 
         {/* content */}
         <div style={{ position: 'relative', zIndex: 2, padding: '0 5%', maxWidth: 640 }}>
