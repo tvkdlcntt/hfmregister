@@ -26,8 +26,10 @@ export default function ForexCanvas() {
     const tapeItems = ['EUR/USD 1.0842 ▲','GBP/USD 1.2674 ▼','USD/JPY 149.82 ▲','XAU/USD 2318.5 ▲','USD/CHF 0.9021 ▼','AUD/USD 0.6534 ▲','NZD/USD 0.5981 ▼','EUR/GBP 0.8564 ▲','USD/CAD 1.3642 ▼','EUR/JPY 162.14 ▲','US30 38924 ▼','NAS100 17830 ▲','WTI 81.34 ▼']
 
     function resize() {
-      W = canvas.width = canvas.offsetWidth
-      H = canvas.height = canvas.offsetHeight
+      const currentCanvas = canvasRef.current
+      if (!currentCanvas) return
+      W = currentCanvas.width = currentCanvas.offsetWidth
+      H = currentCanvas.height = currentCanvas.offsetHeight
       floatNums = []
       for (let i = 0; i < 28; i++) {
         floatNums.push({ x: W*0.3+Math.random()*W*0.7, y: Math.random()*H, val:(Math.random()*2-1).toFixed(4), speed:0.15+Math.random()*0.3, opacity:0.04+Math.random()*0.07, size:10+Math.random()*4, color:Math.random()<0.5?'197,160,40':Math.random()<0.5?'239,1,7':'34,197,94' })
