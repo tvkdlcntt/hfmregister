@@ -37,10 +37,10 @@ export default function Navbar() {
             </li>
           ))}
           <li>
-            <Link href="/review" style={{
+            <Link href="/Why-HFM" style={{
               fontFamily: "'Barlow Condensed',sans-serif", fontSize: 14, fontWeight: 600,
               letterSpacing: '1.5px', textTransform: 'uppercase', color: '#C5A028', textDecoration: 'none',
-            }}>Review</Link>
+            }}>Why HFM</Link>
           </li>
         </ul>
 
@@ -72,11 +72,11 @@ export default function Navbar() {
           background: 'rgba(11,15,26,0.98)', borderTop: '1px solid rgba(255,255,255,0.06)',
           padding: '20px 5%', display: 'flex', flexDirection: 'column', gap: 16,
         }}>
-          {['Markets', 'Platforms', 'Promotions', 'About', 'Review'].map(l => (
-            <Link key={l} href={l === 'Review' ? '/review' : '#'} style={{
+          {['Markets', 'Platforms', 'Promotions', 'About', 'Why HFM'].map(l => (
+            <Link key={l} href={l === 'Why HFM' ? '/Why-HFM' : '#'} style={{
               fontFamily: "'Barlow Condensed',sans-serif", fontSize: 18, fontWeight: 700,
               letterSpacing: '2px', textTransform: 'uppercase',
-              color: l === 'Review' ? '#C5A028' : '#F0EFEA', textDecoration: 'none',
+              color: l === 'Why HFM' ? '#C5A028' : '#F0EFEA', textDecoration: 'none',
             }} onClick={() => setOpen(false)}>{l}</Link>
           ))}
         </div>
