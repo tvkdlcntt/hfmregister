@@ -20,8 +20,10 @@ export default function AICanvas() {
     let circuits: Circuit[] = []
 
     function resize() {
-      W = canvas.width = canvas.offsetWidth
-      H = canvas.height = canvas.offsetHeight
+      const currentCanvas = canvasRef.current
+      if (!currentCanvas) return
+      W = currentCanvas.width = currentCanvas.offsetWidth
+      H = currentCanvas.height = currentCanvas.offsetHeight
       initNodes(); initStreams(); initCircuits()
     }
 
