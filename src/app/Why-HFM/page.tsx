@@ -98,15 +98,20 @@ export default function ReviewPage() {
 
       <header style={{ background: '#161b22', borderBottom: '1px solid #30363d', padding: '0 5%', height: 56, display: 'flex', alignItems: 'center', justifyContent: 'space-between', position: 'sticky', top: 0, zIndex: 50 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 20 }}>
-          <Link href="/" style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: 20, fontWeight: 900, color: '#e6edf3', textDecoration: 'none', letterSpacing: 1 }}>
-            HF<span style={{ color: '#C5A028' }}>M</span>
+          <Link href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 8 }}>
+            <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: 20, fontWeight: 900, color: '#e6edf3', letterSpacing: 1, lineHeight: 1 }}>
+              HF<span style={{ color: '#C5A028' }}>M</span>
+            </span>
+            <span style={{ fontSize: 8, color: '#8b949e', textTransform: 'uppercase', letterSpacing: '0.5px', fontFamily: "'Barlow Condensed',sans-serif", marginTop: 2 }}>
+              Independent Partner
+            </span>
           </Link>
           <span style={{ color: '#30363d' }}>|</span>
           <span style={{ fontSize: 13, color: '#8b949e', fontFamily: 'system-ui,sans-serif' }}>Why HFM</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
-          <Link href="/" style={{ fontSize: 13, color: '#8b949e', textDecoration: 'none', fontFamily: 'system-ui,sans-serif' }}>← Back to HFM</Link>
-          <Link href="https://my.hfm.com/en/register" target="_blank" style={{ background: '#EF0107', color: 'white', padding: '7px 18px', fontSize: 13, fontWeight: 600, textDecoration: 'none', borderRadius: 6, fontFamily: 'system-ui,sans-serif' }}>Open Account</Link>
+          <Link href="/" style={{ fontSize: 13, color: '#8b949e', textDecoration: 'none', fontFamily: 'system-ui,sans-serif' }}>← Home</Link>
+          <Link href="https://my.hfm.com/en/register" target="_blank" style={{ background: '#EF0107', color: 'white', padding: '7px 18px', fontSize: 13, fontWeight: 600, textDecoration: 'none', borderRadius: 6, fontFamily: 'system-ui,sans-serif' }}>Go to Official Register</Link>
         </div>
       </header>
 
@@ -339,21 +344,21 @@ export default function ReviewPage() {
         </p>
 
         <div style={{ background: '#161b22', border: '1px solid #30363d', borderRadius: 8, padding: '36px', textAlign: 'center', marginTop: 48 }}>
-          <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: 3, textTransform: 'uppercase', color: '#EF0107', marginBottom: 10, fontFamily: 'system-ui,sans-serif' }}>Ready to Trade?</div>
-          <h3 style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: 30, fontWeight: 900, textTransform: 'uppercase', color: '#e6edf3', marginBottom: 10 }}>Open Your HFM Account Today</h3>
-          <p style={{ fontSize: 14, color: '#8b949e', marginBottom: 28, fontFamily: 'system-ui,sans-serif' }}>Join 3.5 million traders. No minimum deposit on Standard accounts.</p>
-          <Link href="https://my.hfm.com/en/register" target="_blank" style={{ background: '#EF0107', color: 'white', padding: '15px 44px', fontFamily: "'Barlow Condensed',sans-serif", fontSize: 16, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase', borderRadius: 4, textDecoration: 'none', display: 'inline-block' }}>Open Free Account</Link>
+          <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: 3, textTransform: 'uppercase', color: '#EF0107', marginBottom: 10, fontFamily: 'system-ui,sans-serif' }}>Ready to Register?</div>
+          <h3 style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: 30, fontWeight: 900, textTransform: 'uppercase', color: '#e6edf3', marginBottom: 10 }}>Register Your HFM Account</h3>
+          <p style={{ fontSize: 14, color: '#8b949e', marginBottom: 28, fontFamily: 'system-ui,sans-serif' }}>Access HFM registration via the official partner link below.</p>
+          <Link href="https://my.hfm.com/en/register" target="_blank" style={{ background: '#EF0107', color: 'white', padding: '15px 44px', fontFamily: "'Barlow Condensed',sans-serif", fontSize: 16, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase', borderRadius: 4, textDecoration: 'none', display: 'inline-block' }}>Go to Official Register</Link>
         </div>
 
         <div style={{ marginTop: 48, padding: '18px 20px', background: 'rgba(239,1,7,0.03)', border: '1px solid rgba(239,1,7,0.12)', borderLeft: '3px solid rgba(239,1,7,0.4)', borderRadius: '0 4px 4px 0', fontSize: 12, color: '#6e7681', lineHeight: 1.8, fontFamily: 'system-ui,sans-serif' }}>
-          <strong style={{ color: '#8b4848' }}>⚠ Risk Warning & Disclaimer:</strong> This review is for informational purposes only and does not constitute investment advice. Trading leveraged products such as Forex and CFDs carries a high degree of risk to your capital and may not be suitable for all investors. Past performance is not indicative of future results. Never invest money you cannot afford to lose.<br /><br />
-          <strong style={{ color: '#6e7681' }}>Legal:</strong> HF Markets (SV) Ltd, reg. 22747 IBC 2015, St. Vincent & the Grenadines. HF Markets (UK) Ltd, FCA ref. 801701. HF Markets SA (PTY) Ltd, FSCA FSP 46632. HF Markets (Seychelles) Ltd, reg. 8419176-1. HF Markets Fintech Services Ltd, reg. ΗΕ 348222, Cyprus. HFM does not offer services to residents of the USA, Canada, Sudan, Syria, Iran, North Korea, UAE, Türkiye, and certain other jurisdictions.
+          <strong style={{ color: '#8b4848' }}>⚠ Risk Warning & Disclaimer:</strong> This review is for informational and educational referral purposes only and does not constitute investment advice. Trading leveraged products such as Forex and CFDs carries a high degree of risk to your capital and may not be suitable for all investors. Past performance is not indicative of future results. Never invest money you cannot afford to lose.<br /><br />
+          <strong style={{ color: '#6e7681' }}>Legal:</strong> This website is an independent educational partner portal. Brand information relates to HF Markets (SV) Ltd (reg. 22747 IBC 2015, SVG), HF Markets (UK) Ltd (FCA ref. 801701), HF Markets SA (PTY) Ltd (FSCA FSP 46632), HF Markets (Seychelles) Ltd (reg. 8419176-1), and HF Markets Fintech Services Ltd (reg. ΗΕ 348222, Cyprus). HFM does not offer services to residents of the USA, Canada, Sudan, Syria, Iran, North Korea, UAE, Türkiye, and certain other jurisdictions.
         </div>
       </div>
 
       <footer style={{ background: '#0d1117', borderTop: '1px solid #21262d', padding: '20px 5%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12, fontFamily: 'system-ui,sans-serif' }}>
-        <span style={{ fontSize: 12, color: '#6e7681' }}>© 2026 HF Markets Group · All Rights Reserved</span>
-        <Link href="/" style={{ fontSize: 12, color: '#C5A028', textDecoration: 'none' }}>← Back to HFM Homepage</Link>
+        <span style={{ fontSize: 12, color: '#6e7681' }}>© 2026 Independent HFM Review & Partner Portal · All Rights Reserved</span>
+        <Link href="/" style={{ fontSize: 12, color: '#C5A028', textDecoration: 'none' }}>← HFM Partner Home</Link>
       </footer>
     </div>
   )

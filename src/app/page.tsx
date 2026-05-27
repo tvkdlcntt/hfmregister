@@ -4,8 +4,8 @@ import AICanvas from './components/AICanvas'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'HFM – Trade Like a Champion | Official Arsenal FC Partner',
-  description: 'HFM is an award-winning multi-asset forex broker trusted by 3.5M+ traders. FCA & FSCA regulated. Official Arsenal FC Partner. Zero commission trading from 0.0 pips.',
+  title: 'HFM Broker Review & Signup Guide | Partner Portal',
+  description: 'Independent review of HFM broker. Step-by-step account registration, regulation status, and trading conditions.',
 }
 
 const WHY_CARDS = [
@@ -44,16 +44,16 @@ export default function HomePage() {
             Official Partner · Arsenal FC 2025/26
           </div>
           <h1 style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: 'clamp(58px,8vw,102px)', fontWeight: 900, lineHeight: 0.89, textTransform: 'uppercase', letterSpacing: -2, marginBottom: 22 }}>
-            <span style={{ color: '#F0EFEA', display: 'block' }}>Trade</span>
-            <span style={{ color: '#EF0107', display: 'block' }}>Like a</span>
-            <span style={{ color: 'transparent', display: 'block', WebkitTextStroke: '1.5px rgba(197,160,40,0.45)' }}>Champion</span>
+            <span style={{ color: '#F0EFEA', display: 'block' }}>HFM Review</span>
+            <span style={{ color: '#EF0107', display: 'block' }}>& Registration</span>
+            <span style={{ color: 'transparent', display: 'block', WebkitTextStroke: '1.5px rgba(197,160,40,0.45)' }}>Portal</span>
           </h1>
           <p style={{ fontSize: 16, color: '#7a7e8a', lineHeight: 1.75, maxWidth: 460, marginBottom: 36, fontWeight: 300 }}>
-            HFM is an <strong style={{ color: '#F0C842', fontWeight: 600 }}>award-winning multi-asset broker</strong> trusted by 3.5 million traders worldwide. Powered by AI-grade infrastructure — access Forex, Metals, Indices and Stocks with institutional-grade conditions.
+            Welcome to the independent signup portal for <strong style={{ color: '#F0C842', fontWeight: 600 }}>HFM (HF Markets)</strong>. Our comprehensive analysis covers regulation, platform capabilities, and account registration procedures for new traders.
           </p>
           <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}>
-            <Link href="https://my.hfm.com/en/register" target="_blank" style={{ background: '#EF0107', color: 'white', padding: '16px 42px', fontFamily: "'Barlow Condensed',sans-serif", fontSize: 16, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase', borderRadius: 2, textDecoration: 'none' }}>Open Free Account</Link>
-            <Link href="/Why-HFM" style={{ background: 'transparent', color: '#C5A028', padding: '16px 36px', fontFamily: "'Barlow Condensed',sans-serif", fontSize: 16, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase', border: '1px solid rgba(197,160,40,0.45)', borderRadius: 2, textDecoration: 'none' }}>Why HFM</Link>
+            <Link href="https://my.hfm.com/en/register" target="_blank" style={{ background: '#EF0107', color: 'white', padding: '16px 42px', fontFamily: "'Barlow Condensed',sans-serif", fontSize: 16, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase', borderRadius: 2, textDecoration: 'none' }}>Go to Official Register</Link>
+            <Link href="/Why-HFM" style={{ background: 'transparent', color: '#C5A028', padding: '16px 36px', fontFamily: "'Barlow Condensed',sans-serif", fontSize: 16, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase', border: '1px solid rgba(197,160,40,0.45)', borderRadius: 2, textDecoration: 'none' }}>Read Full Review</Link>
           </div>
         </div>
 
@@ -83,9 +83,9 @@ export default function HomePage() {
 
       {/* ── WHY HFM ── */}
       <section style={{ padding: '96px 5%' }}>
-        <div style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: 12, fontWeight: 700, letterSpacing: 4, textTransform: 'uppercase', color: '#EF0107', marginBottom: 14 }}>Why Choose HFM</div>
+        <div style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: 12, fontWeight: 700, letterSpacing: 4, textTransform: 'uppercase', color: '#EF0107', marginBottom: 14 }}>Independent Review</div>
         <h2 style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: 'clamp(36px,5vw,66px)', fontWeight: 900, textTransform: 'uppercase', lineHeight: 0.93, letterSpacing: -1, marginBottom: 52 }}>
-          Trade With The<br /><span style={{ color: '#C5A028' }}>Best Conditions</span>
+          Why Traders<br /><span style={{ color: '#C5A028' }}>Choose HFM</span>
         </h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(260px,1fr))', gap: 1, background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.05)' }}>
           {WHY_CARDS.map((c) => (
@@ -120,7 +120,7 @@ export default function HomePage() {
             <span style={{ color: '#C5A028', display: 'block' }}>Our Partners.</span>
           </h2>
           <p style={{ fontSize: 15, color: '#7a7e8a', lineHeight: 1.8, marginBottom: 30, maxWidth: 450 }}>
-            HFM is proud to be an Official Partner of Arsenal FC. A partnership built on precision, ambition, and winning mentality. As Arteta&apos;s Gunners dominate the Premier League, HFM equips traders with the professional-grade edge to dominate global financial markets.
+            As part of our brand analysis, HFM&apos;s sponsorship of Arsenal FC serves as a high-profile validation of its corporate stability. This commercial relationship highlights the broker&apos;s significant financial footprint and global reputational standing within the Premier League and international markets.
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12, marginBottom: 32, maxWidth: 420 }}>
             {[['PL Champions','2025/26 Season'],['60,704','Emirates Capacity'],['140+','Years of History'],['3.5M+','HFM Active Traders']].map(([v,k]) => (
@@ -130,7 +130,7 @@ export default function HomePage() {
               </div>
             ))}
           </div>
-          <Link href="https://my.hfm.com/en/register" target="_blank" style={{ background: '#EF0107', color: 'white', padding: '16px 40px', fontFamily: "'Barlow Condensed',sans-serif", fontSize: 16, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase', borderRadius: 2, textDecoration: 'none', display: 'inline-block' }}>Open Account Now</Link>
+          <Link href="https://my.hfm.com/en/register" target="_blank" style={{ background: '#EF0107', color: 'white', padding: '16px 40px', fontFamily: "'Barlow Condensed',sans-serif", fontSize: 16, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase', borderRadius: 2, textDecoration: 'none', display: 'inline-block' }}>Go to Official Register</Link>
         </div>
       </section>
 
@@ -141,10 +141,10 @@ export default function HomePage() {
           Legal Information
         </div>
         <p style={{ fontSize: 13, color: '#7a7e8a', lineHeight: 1.75, marginBottom: 16, maxWidth: 1000 }}>
-          <strong style={{ color: 'rgba(255,255,255,0.5)', fontWeight: 500 }}>Legal:</strong> HF Markets (SV) Ltd is incorporated in St. Vincent &amp; the Grenadines as an International Business Company with the registration number 22747 IBC 2015.
+          <strong style={{ color: 'rgba(255,255,255,0.5)', fontWeight: 500 }}>Disclaimer:</strong> This website is an independent partner portal and is not directly operated by HF Markets (SV) Ltd or its associated entities. HF Markets (SV) Ltd is incorporated in St. Vincent &amp; the Grenadines as an International Business Company with the registration number 22747 IBC 2015.
         </p>
         <p style={{ fontSize: 12.5, color: '#616469', lineHeight: 1.9, marginBottom: 16, maxWidth: 1000 }}>
-          The website is operated and provides content by HF Markets Group of companies, which include:{' '}
+          This educational guide provides reviews and referral resources regarding the HF Markets Group of companies, which include:{' '}
           {LEGAL_ENTITIES.map((e, i) => (
             <span key={i}><strong style={{ color: 'rgba(255,255,255,0.4)', fontWeight: 500 }}>{e.name}</strong>, {e.detail}{i < LEGAL_ENTITIES.length - 1 ? ' ' : ''}</span>
           ))}
@@ -161,10 +161,13 @@ export default function HomePage() {
       <footer style={{ background: '#060810', borderTop: '1px solid rgba(255,255,255,0.04)', padding: '22px 5%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
           <div style={{ background: '#EF0107', clipPath: 'polygon(50% 0%,93% 25%,93% 75%,50% 100%,7% 75%,7% 25%)', width: 26, height: 26, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: "'Barlow Condensed',sans-serif", fontSize: 9, fontWeight: 900, color: 'white' }}>HFM</div>
-          <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: 22, fontWeight: 900, color: '#F0EFEA' }}>HF<span style={{ color: '#C5A028' }}>M</span></span>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: 18, fontWeight: 900, color: '#F0EFEA', lineHeight: 1 }}>HF<span style={{ color: '#C5A028' }}>M</span></span>
+            <span style={{ fontSize: 8, color: '#7a7e8a', textTransform: 'uppercase', letterSpacing: '1px', fontFamily: "'Barlow Condensed',sans-serif" }}>Independent Partner</span>
+          </div>
         </div>
-        <p style={{ fontSize: 12, color: '#7a7e8a' }}>© 2026 HF Markets Group · All Rights Reserved</p>
-        <p style={{ fontSize: 12, color: '#7a7e8a' }}>Official Partner of Arsenal FC</p>
+        <p style={{ fontSize: 12, color: '#7a7e8a' }}>© 2026 Independent HFM Partner Portal · All Rights Reserved</p>
+        <p style={{ fontSize: 12, color: '#7a7e8a' }}>Educational & Referral Resource</p>
       </footer>
     </>
   )

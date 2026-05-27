@@ -10,12 +10,12 @@ const siteUrl =
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: 'HFM – Trade Like a Champion | Official Arsenal FC Partner',
-  description: 'HFM is an award-winning multi-asset forex broker trusted by 3.5M+ traders worldwide. FCA regulated. Access Forex, Metals, Indices & Stocks. Official Partner of Arsenal FC.',
-  keywords: 'HFM broker, HFMarkets, forex broker, CFD trading, FCA regulated broker, Arsenal FC partner, MetaTrader 5',
+  title: 'HFM Broker Review & Signup Guide | Independent Partner Portal',
+  description: 'Comprehensive independent review of HFM broker. Learn how to open an account, trading conditions, regulation, and platform access.',
+  keywords: 'HFM review, HFM registration, HFM signup, HFMarkets guide, independent broker review, CFD trading',
   openGraph: {
-    title: 'HFM – Trade Like a Champion',
-    description: 'Award-winning multi-asset broker. FCA regulated. Official Arsenal FC Partner.',
+    title: 'HFM Broker Review & Signup Guide',
+    description: 'Independent review of HFM broker. Regulation, trading conditions, and account registration guide.',
     type: 'website',
     url: '/',
   },

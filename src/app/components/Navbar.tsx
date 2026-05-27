@@ -21,9 +21,14 @@ export default function Navbar() {
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             fontFamily: "'Barlow Condensed',sans-serif", fontSize: 12, fontWeight: 900, color: 'white',
           }}>HFM</div>
-          <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: 28, fontWeight: 900, color: '#F0EFEA', letterSpacing: 1 }}>
-            HF<span style={{ color: '#C5A028' }}>M</span>
-          </span>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: 22, fontWeight: 900, color: '#F0EFEA', letterSpacing: 1, lineHeight: 1 }}>
+              HF<span style={{ color: '#C5A028' }}>M</span>
+            </span>
+            <span style={{ fontSize: 9, color: '#7a7e8a', textTransform: 'uppercase', letterSpacing: '1px', fontFamily: "'Barlow Condensed',sans-serif", marginTop: 2 }}>
+              Independent Partner
+            </span>
+          </div>
         </Link>
 
         {/* Desktop links */}
